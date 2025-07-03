@@ -54,7 +54,7 @@ cd projeto-final-ecommerce
 ```
 CREATE DATABASE projeto_final;
 ```
-###3. Configure as variáveis de ambiente
+### 3. Configure as variáveis de ambiente
 Crie um arquivo .env dentro da pasta backend com o seguinte conteúdo:
 
 ```
@@ -65,13 +65,13 @@ DB_PASSWORD=sua_senha
 DB_NAME=projeto_final
 JWT_SECRET=segredo123
 ```
-##4. Inicie o backend
+### 4. Inicie o backend
 ```
 cd backend
 npm install
 npx nodemon src/server.js
 ```
-##5. Inicie o frontend
+### 5. Inicie o frontend
 ```
 cd frontend
 npm install
