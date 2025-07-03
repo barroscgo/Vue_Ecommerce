@@ -1,23 +1,17 @@
 <template>
   <v-app>
-    <v-main>
-      <HelloWorld/>
-    </v-main>
+    <router-view />
   </v-app>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-
-  components: {
-    HelloWorld,
-  },
-
-  data: () => ({
-    //
-  }),
-}
+<script setup>
+// Nada necessário por enquanto
 </script>
+
+<style>
+/* Estilo opcional */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+</style>
