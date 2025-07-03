@@ -48,6 +48,7 @@ Este projeto é uma aplicação web full-stack desenvolvida como parte do curso 
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
+
 2. Configure o banco de dados
 No MySQL:
 
@@ -56,7 +57,7 @@ Copiar
 Editar
 CREATE DATABASE projeto_final;
 3. Configure as variáveis de ambiente
-Crie um arquivo .env dentro da pasta backend:
+Crie um arquivo .env dentro da pasta backend com o seguinte conteúdo:
 
 env
 Copiar
@@ -104,4 +105,3 @@ Cadastre, edite e exclua produtos
 ✔ Código organizado e seguindo boas práticas
 
 ✔ Estrutura recomendada no curso
-
